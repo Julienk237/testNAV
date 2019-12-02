@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Your own server",
+            "server": "http://172.25.230.85",
+            "serverInstance": "BC",
+            "authentication": "Windows",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
+    ]
+}
